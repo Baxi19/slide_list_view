@@ -18,8 +18,8 @@ class _HomeState extends State<Home> {
       ),
       body: Container(
         child: SlideListView(
-          view1: buildPage(Colors.deepPurple, "Login"),
-          view2: buildPage(Colors.indigo, "Sign up"),
+          view1: buildPage(Colors.deepPurple, "View 1"),
+          view2: buildPage(Colors.indigo, "View 2"),
           floatingActionButtonColor: Colors.green,
           floatingActionButtonIcon: AnimatedIcons.menu_arrow,
           showFloatingActionButton: true,
